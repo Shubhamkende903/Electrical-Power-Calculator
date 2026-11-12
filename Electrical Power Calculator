@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    float voltage, current, power;
+
+    printf("Enter Voltage: ");
+    scanf("%f", &voltage);
+
+    printf("Enter Current: ");
+    scanf("%f", &current);
+
+    power = voltage * current;
+
+    printf("Electrical Power = %.2f Watt", power);
+
+    return 0;
+}
